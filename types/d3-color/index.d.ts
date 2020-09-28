@@ -220,6 +220,10 @@ export interface HSLColor extends Color {
      * Returns the RGB color equivalent of this color.
      */
     rgb(): RGBColor;
+    /**
+     * Returns the HEX string for this color.
+     */
+    formatHex(): string;
 }
 
 /**
